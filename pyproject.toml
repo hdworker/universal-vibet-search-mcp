@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "universal-vibet-search-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Free multi-engine web search MCP server — no API keys required"
 readme = "README.md"
 license = "MIT"
@@ -34,7 +34,7 @@ Issues = "https://github.com/hdworker/universal-vibet-search-mcp/issues"
 Upstream = "https://github.com/HKUDS/Vibe-Trading"
 
 [project.scripts]
-universal-vibet-search-mcp = "src.server:main"
+universal-vibet-search-mcp = "universal_vibet_search_mcp.server:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src"]
+packages = ["universal_vibet_search_mcp"]

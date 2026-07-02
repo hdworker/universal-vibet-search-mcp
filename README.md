@@ -38,7 +38,7 @@ universal-vibet-search-mcp
 Or directly:
 
 ```bash
-python -m src.server
+python -m universal_vibet_search_mcp.server
 ```
 
 ### Add to Claude Desktop / OpenCode / Cursor
@@ -63,7 +63,7 @@ Or with Python module:
   "mcpServers": {
     "web-search": {
       "command": "python",
-      "args": ["-m", "src.server"],
+      "args": ["-m", "universal_vibet_search_mcp.server"],
       "cwd": "/path/to/universal-vibet-search-mcp",
       "transport": "stdio"
     }
