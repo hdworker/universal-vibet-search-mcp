@@ -35,3 +35,6 @@ Upstream = "https://github.com/HKUDS/Vibe-Trading"
 
 [project.scripts]
 universal-vibet-search-mcp = "src.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
